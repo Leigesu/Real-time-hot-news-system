@@ -1,2 +1,26 @@
-https://github.com/Leigesu/Real-time-hot-news-system/tree/master
 # Real-time-hot-news-system
+## 热点趋势智能捕捉系统(基于Springboot+Vue)
+### "热点趋势智能捕捉系统"是一个基于 Spring Boot 后端框架、Vue.js 前端框架以及 Python 爬虫技术的项目。该系统旨在实现对当前热点话题和趋势的智能捕捉和分析，为用户提供及时的信息和见解。
+
+***项目功能***：
+
+热点话题监测：通过 Python 爬虫技术从多个网络来源实时抓取热点话题和新闻内容。
+数据处理与分析：利用后端 Spring Boot 框架进行数据处理和存储，对抓取的信息进行清洗、整理和分析。
+前端展示与用户交互：使用 Vue.js 构建响应式的前端界面，展示热点话题列表、关键词分析结果等，并提供用户交互功能。
+智能推荐：基于用户偏好和历史数据，实现热点内容的个性化推荐功能，提升用户体验。
+<font color=blue>
+
+***技术栈***：
+
+后端：Spring Boot 框架、Java 编程语言、数据库（如MySQL、MongoDB等）。
+前端：Vue.js 框架、HTML、CSS、JavaScript。
+爬虫：Python 编程语言、Beautiful Soup、Scrapy 等爬虫库。
+数据存储：关系型数据库（如MySQL）、非关系型数据库（如MongoDB）。
+部署与集成：Docker 容器化技术、CI/CD 自动化部署流程。
+
+***项目优势***：
+
+全面性：涵盖了数据抓取、处理、分析和展示等环节，为用户提供全方位的热点话题服务。
+智能化：通过数据分析和推荐算法，实现对用户兴趣的智能捕捉和推荐。
+跨平台：前后端分离的设计使得系统可以灵活部署和适配不同的终端设备。
+</font>
