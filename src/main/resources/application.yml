@@ -1,0 +1,52 @@
+server:
+  port: 80
+spring:
+  mail:
+    #    邮箱账号
+    username: 2700337833@qq.com
+    #    邮箱客户端授权码
+    password: qfrpmplrowsfdcji
+    #    邮箱服务器地址
+    host: smtp.qq.com
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+  redis:
+    #    password:
+    host: 127.0.0.1
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 100
+        max-idle: 100
+        min-idle: 0
+        max-wait: 100
+#    password:
+  application:
+      name: spring-redis
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/leiye?useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+      username: root
+      password: 123456
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 20MB
+
+
+#      url: jdbc:mysql://47.113.218.179:3306/leige?useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+#      username: leige
+#      password: s1172944356
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: none
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
