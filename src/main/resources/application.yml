@@ -1,52 +1,52 @@
-server:
-  port: 80
-spring:
-  mail:
-    #    邮箱账号
-    username: 2700337833@qq.com
-    #    邮箱客户端授权码
-    password: qfrpmplrowsfdcji
-    #    邮箱服务器地址
-    host: smtp.qq.com
-    properties:
-      mail:
-        smtp:
-          ssl:
-            enable: true
-  redis:
-    #    password:
-    host: 127.0.0.1
-    port: 6379
-    lettuce:
-      pool:
-        max-active: 100
-        max-idle: 100
-        min-idle: 0
-        max-wait: 100
-#    password:
-  application:
-      name: spring-redis
-  datasource:
-    druid:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/leiye?useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
-      username: root
-      password: 123456
-  servlet:
-    multipart:
-      enabled: true
-      max-file-size: 20MB
+计算机网络服务器:
+港口: 80
+春天:
+邮件:
+    # 邮箱账号
+用户名: 
+    # 邮箱客户端授权码
+密码: 
+    # 邮箱服务器地址
+宿主: smtp.qq.com
+性能:
+邮件:
+简单邮件传输协议:
+安全套接层:
+使能够: 真实的
+雷迪斯:
+    #密码:
+宿主: 127.0.0.1
+港口: 6379
+生菜；莴苣:
+泳池:
+最大活动: 100
+最大空闲时间: 100
+最小空闲时间: 0
+麦克斯-等等: 100
+#密码:
+应用:
+名字: 斯普林-雷迪斯
+数据源:
+德鲁伊:
+驱动程序类别名称: com.mysql.cj.jdbc.Driver
+全球资源定位器(Uniform Resource Locator): jdbc:关系型数据库://本地主机:3306/叶磊？use SSL = false & server time zone = UTC & use unicode = true & character encoding = utf8
+用户名: 根
+密码: 123456
+小型应用程序:
+几部分的:
+使能够: 真实的
+最大文件大小: 20MB
 
 
-#      url: jdbc:mysql://47.113.218.179:3306/leige?useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
-#      username: leige
-#      password: s1172944356
+# URL:JDBC:MySQL://47 . 113 . 218 . 179:3306/格雷？use SSL = false & server time zone = UTC & use unicode = true & character encoding = utf8
+#用户名:
+#密码:
 mybatis-plus:
-  global-config:
-    db-config:
-      id-type: none
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+全局配置:
+数据库配置:
+id类型: 没有人
+配置:
+对数实现: org . Apache . ibatis . logging . stdout . stdoutimpl
 
 
 
